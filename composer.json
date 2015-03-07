@@ -1,0 +1,24 @@
+{
+  "name": "simplicitylab/php-dutch-stemmer",
+  "description": "PHP Dutch stemmer",
+  "license": "LGPL-2.1",
+  "keywords": ["dutch stemmer", "dutch", "stemmer"],
+  "authors": [
+    {
+      "name": "Glenn De Backer",
+      "email": "glenn.debacker@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Simplicitylab\\Summarizer\\": "src/Summarizer",
+      "Simplicitylab\\Statistics\\": "src/Statistics",
+      "Simplicitylab\\Splitters\\" : "src/Splitters",
+      "Simplicitylab\\Clustering\\": "src/Clustering"
+    }
+  }
+}
